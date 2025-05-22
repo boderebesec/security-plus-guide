@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // render single line breaks in Markdown preview
+    "markdown.preview.breaks": true,
+
+    // enable word wrap in editors
+    "editor.wordWrap": "on",
+
+    // hide VS Code’s telemetry file if it appears
+    "files.exclude": {
+      "**/.vscode": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one",      // enhanced MD editing
+      "DavidAnson.vscode-markdownlint"   // linting for style consistency
+    ]
+  }
+}

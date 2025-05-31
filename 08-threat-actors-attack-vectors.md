@@ -1,72 +1,99 @@
-# BEC, System Threats & Network Threats — Domain 2: Threats, Vulnerabilities, and Mitigations
+# Threat Actors & Attack Vectors — Domain 2: Threats, Vulnerabilities, and Mitigations
 
-Focus: Understand how email-, host-, and network-based attacks operate  
-Purpose: Equip learners to identify and mitigate common communication, system, and network threats
-
----
-
-## Business Email Compromise & Communication-Based Threats
-
-Business Email Compromise relies on impersonation and urgency to trick victims into wiring funds or disclosing information.
-
-Common methods include:  
-- **Phishing** – generic bulk emails designed to steal credentials or deliver malware  
-- **Spear Phishing** – highly targeted messages using personalized details  
-- **Whaling** – attacks aimed at executives or high-value targets  
-- **Vishing** – voice-based phishing over phone calls  
-- **Smishing** – SMS-based phishing via text messages  
-- **Pretexting** – fabricating scenarios to manipulate victims  
-- **Pharming** – redirecting users to malicious websites  
-
-BEC attacks usually use social engineering alone—no malware payloads.
+Focus: Map key threat actor profiles to their typical breaching methods  
+Purpose: Equip learners to link actor motivations and capabilities with real-world attack vectors
 
 ---
 
-## System-Based Attacks
+## Threat Actors
 
-These target endpoints, servers, or application vulnerabilities.
+Threat actors are individuals or groups that intentionally exploit vulnerabilities. They vary by motivation, capability, resources, and risk tolerance.
 
-Key threats:  
-- **Ransomware** – encrypts files and demands payment, sometimes exfiltrating data first  
-- **Rootkits** – stealthy malware that hides in OS kernels or firmware  
-- **Backdoors** – hidden access points that bypass normal authentication  
-- **Logic Bombs** – dormant code triggered by specific events or dates  
-- **Credential Dumping** – extracting passwords or hashes from memory (e.g., LSASS)  
-- **Privilege Escalation** – exploiting flaws to gain higher privileges (horizontal or vertical)  
-- **Fileless Malware** – runs in memory via legitimate tools (PowerShell, WMI)
+### Common Threat Actor Types
 
-Persistence and lack of hardening amplify these risks.
+- **Script Kiddies**  
+  Inexperienced attackers using readily available tools and exploits  
+  Motivation: curiosity or reputation  
+  Risk: low skill but can still cause damage via automated tools
 
----
+- **Hacktivists**  
+  Ideologically or politically motivated individuals or groups  
+  Motivation: protest, attention or disruption
 
-## Network-Based Attacks
+- **Organized Crime**  
+  Well-funded criminal groups focused on financial gain  
+  Methods: ransomware, phishing, extortion
 
-These exploit weaknesses in data flows and network configurations.
+- **Nation-State Actors (APTs)**  
+  State-sponsored teams with advanced capabilities  
+  Methods: zero-day exploits, long-term stealth campaigns
 
-Primary vectors:  
-- **Denial-of-Service (DoS/DDoS)** – overwhelming resources (TCP/UDP floods, application-layer attacks)  
-- **Man-in-the-Middle (MitM)** – intercepting or altering traffic (SSL stripping, rogue gateways)  
-- **Session Hijacking** – stealing valid session tokens or cookies  
-- **Replay Attacks** – resending intercepted data to bypass authentication  
-- **MAC Flooding & ARP Poisoning** – forcing switches into hub mode or redirecting traffic  
-- **DNS Poisoning** – corrupting DNS caches to redirect users  
-- **Rogue Access Points & Evil Twins** – fake Wi-Fi networks to harvest credentials  
+- **Insiders**  
+  Employees, contractors or third parties with legitimate access  
+  Types: malicious (intentional) or negligent (accidental)
 
-Misconfigured devices, unencrypted traffic, and flat networks multiply these threats.
+- **Competitors**  
+  External entities seeking trade secrets or aiming to sabotage operations
 
 ---
 
-## Review Insights
+## Threat Actor Attributes
 
-- BEC is purely social engineering—no malware required  
-- Credential theft often kick-starts deeper system compromise  
-- Network attacks go unnoticed without active monitoring (IDS/IPS)  
-- Core defenses: MFA, least privilege, patch management, segmentation, strong filtering
+Actors can be further classified by:
+
+- **Sophistication** – unskilled to advanced persistent threat  
+- **Resources** – from hobbyist tools to custom malware and zero-days  
+- **Motivation** – financial, ideological, competitive or state objectives  
+- **Preferred Vectors** – chosen based on access level and goals
+
+---
+
+## Attack Vectors
+
+Attack vectors are the paths or methods used to gain access to systems. They often exploit user behavior, technical vulnerabilities or misconfigurations.
+
+### Common Attack Vectors
+
+- **Email / Phishing**  
+  Malicious links or attachments that steal credentials or deliver malware
+
+- **Social Engineering**  
+  Pretexting, baiting, tailgating or impersonation to manipulate individuals
+
+- **Removable Media**  
+  USB drives or portable storage used to introduce malware or exfiltrate data
+
+- **Wireless & Bluetooth**  
+  Rogue access points, protocol exploits or weak encryption
+
+- **Public-Facing Applications**  
+  Web apps or APIs vulnerable to injection, misconfiguration or unpatched flaws
+
+- **Supply Chain**  
+  Compromised third-party hardware, software or updates
+
+- **Cloud Services**  
+  Misconfigured storage, weak credentials or missing multi-factor authentication
+
+- **Drive-By Downloads**  
+  Websites that automatically download malware when visited
+
+- **Physical Access**  
+  Direct access to devices or facilities to install rogue hardware or extract data
+
+---
+
+## Reinforcement Notes
+
+- Most attacks begin with phishing or social engineering  
+- Insiders pose high risk due to trust and access privileges  
+- Supply chain and cloud misconfigurations are rising in frequency and impact  
+- Pair threat actor profiles with likely vectors to anticipate and defend
 
 ---
 
 ## References
 
 - CompTIA SY0-701 Exam Objectives: https://www.comptia.org/certifications/security  
-- MITRE ATT&CK Framework – Credential Access (TA0006): https://attack.mitre.org/tactics/TA0006/  
-- CISA Business Email Compromise: https://www.cisa.gov/news-events/news/business-email-compromise  
+- MITRE ATT&CK Framework: https://attack.mitre.org  
+- CISA Threat Actor Alerts: https://www.cisa.gov/news-events/alerts 

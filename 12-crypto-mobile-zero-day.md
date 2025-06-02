@@ -1,7 +1,7 @@
 # Cryptographic, Mobile, and Zero-Day Vulnerabilities — Domain 2: Threats, Vulnerabilities, and Mitigations
 
-**Focus**: Identify and mitigate cryptographic weaknesses, mobile risks, and unknown zero-day threats
-**Purpose**: Strengthen understanding of exploitable flaws that stem from insecure defaults, user behavior, and delayed response
+Focus: Identify and mitigate cryptographic weaknesses, mobile risks, and unknown zero-day threats  
+Purpose: Strengthen understanding of exploitable flaws that stem from insecure defaults, user behavior, and delayed response
 
 ---
 

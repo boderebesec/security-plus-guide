@@ -16,12 +16,12 @@ Security architecture ensures the proper handling and protection of data through
 Different data types require different protection mechanisms, especially when regulated or business-critical.
 
 **Common Data Types:**
-- **Regulated Data:** Includes health (PHI), financial (PCI), or personal (PII) data governed by laws or frameworks.  
-- **Trade Secrets:** Confidential internal formulas, business logic, or plans.  
-- **Intellectual Property (IP):** Patents, trademarks, copyrights, and creative works.  
-- **Legal Data:** Contracts, litigation documents, regulatory disclosures.  
-- **Financial Data:** Income statements, payroll, investments, and budgets.  
-- **Human vs. Non-Human Readable:** Human-friendly formats (PDFs, emails) vs. machine code or scripts.
+- **Regulated Data:** Includes health (PHI), financial (PCI), or personal (PII) data governed by laws or frameworks  
+- **Trade Secrets:** Confidential internal formulas, business logic, or plans  
+- **Intellectual Property (IP):** Patents, trademarks, copyrights, and creative works  
+- **Legal Data:** Contracts, litigation documents, regulatory disclosures  
+- **Financial Data:** Income statements, payroll, investments, and budgets  
+- **Human vs. Non-Human Readable:** Human-friendly formats (PDFs, emails) vs. machine code or scripts
 
 ---
 
@@ -30,15 +30,15 @@ Different data types require different protection mechanisms, especially when re
 Data classification involves labeling information to reflect its sensitivity and determining how it should be stored, accessed, and protected.
 
 ### Common Levels:
-- **Public:** Intended for open consumption (e.g., press releases).  
-- **Internal:** For use within the organization only.  
-- **Confidential:** Sensitive data that could pose risk if leaked.  
-- **Restricted/Critical:** High-sensitivity data requiring strict controls.
+- **Public:** Intended for open consumption (e.g., press releases)  
+- **Internal:** For use within the organization only  
+- **Confidential:** Sensitive data that could pose risk if leaked  
+- **Restricted/Critical:** High-sensitivity data requiring strict controls
 
 ### Government (U.S. Fed-level) Classification:
-- **Confidential:** Lowest classification; unauthorized disclosure could cause damage.  
-- **Secret:** Serious damage if disclosed.  
-- **Top Secret:** Exceptionally grave damage if exposed.
+- **Confidential:** Lowest classification; unauthorized disclosure could cause damage  
+- **Secret:** Serious damage if disclosed  
+- **Top Secret:** Exceptionally grave damage if exposed
 
 ---
 

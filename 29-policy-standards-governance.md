@@ -67,11 +67,8 @@ COBIT | NIST CSF | ISO/IEC 27001 | ITIL
 
 ## References
 
-- NIST Cybersecurity Framework (CSF)
-  https://www.nist.gov/cyberframework  
-- ISO/IEC 27001 Information Security Management
-  https://www.iso.org/isoiec-27001-information-security.html  
-- CIS Controls v8 – Governance & Audit
-  https://www.cisecurity.org/controls 
+- NIST Cybersecurity Framework (CSF): https://www.nist.gov/cyberframework  
+- ISO/IEC 27001 Information Security Management: https://www.iso.org/isoiec-27001-information-security.html  
+- CIS Controls v8 – Governance & Audit: https://www.cisecurity.org/controls 
 - CompTIA Security+ SY0-701 Objectives  
   https://www.comptia.org/en-us/certifications/security/#objectives

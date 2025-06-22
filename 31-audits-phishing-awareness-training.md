@@ -81,6 +81,6 @@ Phishing remains a top threat vector and includes various forms of deception.
 ## References
 
 - NIST SP 800-53 Rev. 5 — Audit and Accountability: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final  
-- CompTIA Security+ SY0-701 Objectives: https://www.comptia.org/certifications/security#examdetails  
+- CompTIA Security+ SY0-701 Objectives: https://www.comptia.org/en-us/certifications/security/#objectives  
 - CIS Controls v8 — Awareness & Training: https://www.cisecurity.org/controls/security-awareness-and-skills-training  
 - Anti-Phishing Working Group (APWG): https://apwg.org/  

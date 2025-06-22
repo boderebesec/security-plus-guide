@@ -71,7 +71,7 @@ Phishing remains a top threat vector and includes various forms of deception.
 ## Summary Table
 
 | Area              | Focus                         | Implementation Tools & Tactics                 |
-| ----------------- | ----------------------------- | ---------------------------------------------- |
+| ----------------- | ----------------------------- | -----------------------------------------------|
 | Audits            | Verify control effectiveness  | Internal/external audits, logs, evidence       |
 | Phishing          | Detect and prevent deception  | Email filtering, user training, alert channels |
 | Awareness         | User behavior reinforcement   | Campaigns, simulations, reporting dashboards   |
